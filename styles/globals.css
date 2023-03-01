@@ -77,3 +77,68 @@
     padding-top: 40px;
     
 }
+.thirdiv{
+    height: 400px;
+    background-color: red;
+    margin-top: 30px;
+}
+/* thirdiv css */
+
+
+.wrapper,
+.single-card{
+    height: 200px;
+    max-width: 300px;
+    margin: relative;
+}
+.wrapper{
+    perspective: 900px;
+}
+.single-card{
+    text-align: center;
+    transition: all 1.5s cubic-bezier(0.7, -.5, 0.3 ,1.8);
+    transform-style: preserve-3d;
+}
+.wrapper:hover .single-card{
+    transform: rotateY(180deg);
+}
+.front,.back{
+    width: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    
+}
+.front{
+    cursor: pointer;
+    height: 100%;
+    background-image: url('/card1.png');
+    background-repeat: no-repeat;
+    background-color: lightgray;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    background-size: contain;
+    background-position: center center;
+/* /*   background-color:pink; just for practics  */
+   
+}
+.back{
+    transform: rotateY(180deg);
+    position: absolute;
+    border-radius: 10px;
+    height: 200px;
+    background: blue;
+}
+.content{
+    padding-top: 10%;
+}
+.content h2{
+    font-size: 35px;
+    margin: 0;
+    font-weight: 300;
+}
+.content h4{
+    margin: 0;
+}
+
