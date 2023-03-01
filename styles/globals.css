@@ -29,8 +29,51 @@
 
 /* secondidv css */
 .backgroundone{
+    margin-top: 30px;
     border-radius: 5px;
     background-image: url("/secondivone.jpg");
+    background-size: cover;
+  
     height: 200px;
+    
   background-size: cover;
+}
+.backgroundsecond{
+    margin-top: 30px;
+    border-radius: 5px;
+    background-image: url("/secondivtwo.png");
+    background-size: cover;
+    height: 200px;
+    
+  background-size: cover;
+
+}
+.backgroundthree{
+    margin-top: 30px;
+    border-radius: 5px;
+    background-image: url("/secondivthree.jpg");
+    background-size: cover;
+    height: 200px;
+    
+  background-size: cover;
+
+}
+.backgroundfour{
+    margin-top:30px;
+    border-radius: 5px;
+    background-image: url("/secondivfour.jpg");
+    background-size: cover;
+    height: 200px;
+    
+  background-size: cover;
+
+}
+.completediv{
+    padding-top: 10px;
+    width: 92%;
+    margin: auto;
+}
+.secondivheading{
+    padding-top: 40px;
+    
 }
