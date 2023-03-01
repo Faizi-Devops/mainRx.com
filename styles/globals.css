@@ -188,12 +188,16 @@
 
 /* thirdiv css */
 .thirdivback{
-    width: 96%;
+    width: 92%;
     margin: auto;
     height: 500px;
 }
 .fourthdivH1{
     padding-top: 50px;
+}
+.thirdivonediv{
+    background-color: lightgray;
+    height: 300px;
 }
 
 
