@@ -83,8 +83,6 @@
     margin-top: 30px;
 }
 /* thirdiv css */
-
-
 .wrapper,
 .single-card{
     height: 200px;
@@ -115,8 +113,47 @@
     height: 100%;
     background-image: url('/card1.png');
     background-repeat: no-repeat;
-    background-color: lightgray;
     backface-visibility: hidden;
+    
+    border-radius: 10px;
+    background-size: contain;
+    background-position: center center;
+/* /*   background-color:pink; just for practics  */
+   
+}
+.frontingone{
+    cursor: pointer;
+    height: 100%;
+    background-image: url('/card2.png');
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    
+    border-radius: 10px;
+    background-size: contain;
+    background-position: center center;
+/* /*   background-color:pink; just for practics  */
+   
+}
+.frontingtwo{
+    cursor: pointer;
+    height: 100%;
+    background-image: url('/card3.png');
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    
+    border-radius: 10px;
+    background-size: contain;
+    background-position: center center;
+/* /*   background-color:pink; just for practics  */
+   
+}
+.frontingthree{
+    cursor: pointer;
+    height: 100%;
+    background-image: url('/card4.png');
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    
     border-radius: 10px;
     background-size: contain;
     background-position: center center;
@@ -131,7 +168,7 @@
     background: blue;
 }
 .content{
-    padding-top: 10%;
+    padding-top: 25%;
 }
 .content h2{
     font-size: 35px;
@@ -141,4 +178,22 @@
 .content h4{
     margin: 0;
 }
+.socials{
+    margin-top: 20%;
+}
+.socials i{
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+/* thirdiv css */
+.thirdivback{
+    width: 96%;
+    margin: auto;
+    height: 500px;
+}
+.fourthdivH1{
+    padding-top: 50px;
+}
+
 
