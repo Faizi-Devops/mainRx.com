@@ -1,0 +1,46 @@
+.widthing {
+    width: 94%;
+    margin: auto;
+}
+
+.fonting {
+
+    padding-top: 120px;
+    text-align: center;
+}
+
+.head {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.paragraph {
+    font-size: 16px;
+    font-weight: bold;
+    color: lightgray;
+    padding-top: 10px;
+}
+
+.backgroundpicture {
+    background-image: url('/one.jpg');
+    margin-top: 40px;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media (max-width: 768px) {
+    .backgroundpicture {
+      background-size: contain;
+      background-position: top;
+    }
+  }
+
+  .kuch{
+    width: 100%;
+  }
+  .centering{
+    
+    padding-top: 60px;
+  }

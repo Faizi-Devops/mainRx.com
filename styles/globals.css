@@ -1,0 +1,36 @@
+
+.footerbackgroundcolor{
+    background-color: lightgray ;
+    
+}
+.firstdivmargin{
+    padding-top: 60px;
+}
+.seconddivmargin{
+    padding-top: 60px;
+}
+.thirddivmargin{
+    padding-top: 60px;
+}
+.all{
+    color:#6a7695;
+}
+.paddtop{
+    padding-top: 25px;
+}
+.color{
+    color: blue;
+}
+.heighwidth{
+    height: 30px;
+    width:20%
+}
+
+
+/* secondidv css */
+.backgroundone{
+    border-radius: 5px;
+    background-image: url("/secondivone.jpg");
+    height: 200px;
+  background-size: cover;
+}
