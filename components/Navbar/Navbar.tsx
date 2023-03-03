@@ -1,4 +1,5 @@
-import Image from 'next/image'
+import Image from 'next/image';
+import Link from 'next/link'
 const Navbar = () => {
     return (
         <div>
@@ -26,18 +27,20 @@ const Navbar = () => {
                                 <a className="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Shop</a>
+                                <a className="nav-link active" aria-current="page" href="#"><i className="fa-brands fa-shopify" ></i>Shop</a>
                             </li>
                             
                             <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i className="fa-solid fa-user"></i>
+                                <a className="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i className="fa-solid fa-user" style={{color:"blue"}}></i>
                                 </a>
                                 <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#">Action</a></li>
-                                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                                    <li><hr className="dropdown-divider"/></li>
-                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a className="dropdown-item" href="#">Checkout</a></li>
+                                    <li><a className="dropdown-item" href="#">Track Order</a></li>
+                                    <li><a className="dropdown-item" href="#"><Link href="/Signup">Register</Link></a></li>
+                                    <li><a className="dropdown-item" href="#">Blog</a></li>
+                                    <li><a className="dropdown-item" href="#"><Link href="/Login">Login</Link></a></li>
+                                   
                                 </ul>
                             </li>
 

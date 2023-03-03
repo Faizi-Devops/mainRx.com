@@ -207,3 +207,19 @@
 }
 
 
+
+/* new Thirdiv css */
+.thirdybackgroundcolor{
+    background-color: lightgray;
+    height: auto;
+}
+.thirdycardingwidth{
+    width: 96%;
+    margin: auto;
+    
+}
+.thirdyimagesetting{
+    width: 100%;
+}
+
+

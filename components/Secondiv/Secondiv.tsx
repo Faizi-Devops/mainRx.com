@@ -1,8 +1,14 @@
 import Image from 'next/image'
+import Footer from '../Footer/Footer';
+import Fourthdiv from '../Fourthdiv/Fourthdiv';
+import Navbar from '../Navbar/Navbar';
 import Thirdiv from '../Thirdiv/Thirdiv';
 const Secondiv = () => {
     return (
         <div>
+            <div style={{width:"96%",margin:"auto"}}>
+                <Navbar />
+            </div>
 
 
             <div className="completediv">
@@ -144,6 +150,16 @@ const Secondiv = () => {
 
             </div>
             <Thirdiv />
+            <div>
+                <div>
+                    <Fourthdiv />
+                </div>
+                <div className='pt-5'>
+                    <Footer />
+                </div>
+                
+
+            </div>
         </div>
     )
 }

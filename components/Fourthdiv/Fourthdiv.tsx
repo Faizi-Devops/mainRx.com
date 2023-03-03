@@ -37,7 +37,7 @@ const Fourthdiv = () => {
                             </div>
                         </div>
                         <div className='pt-4 mb-3'>
-                            <button type="button" className="btn btn-primary">Primary</button>
+                            <button type="button" className="btn btn-primary">Submit</button>
 
                         </div>
 
