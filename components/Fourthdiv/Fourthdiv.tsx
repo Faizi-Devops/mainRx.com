@@ -23,15 +23,21 @@ const Fourthdiv = () => {
 
                     <div className="card-body">
                         <div className="mb-3">
-                        <p style={{fontWeight:"bold"}}>Email</p>
-                            <input type="email" className="form-control"  placeholder="name@example.com" />
+                            <p style={{ fontWeight: "bold" }}>Email</p>
+                            <div className="input-group">
+                                <span className="input-group-text"><i className="fa fa-envelope"></i></span>
+                                <input type="email" className="form-control" placeholder="name@example.com" />
+                            </div>
                         </div>
                         <div className="form-group">
-                        <p style={{fontWeight:"bold"}}>Write your Feedback</p>
-                            <textarea className="form-control"  rows={3} placeholder="Please write here......."></textarea>
+                            <p style={{ fontWeight: "bold" }}>Write your Feedback</p>
+                            <div className="input-group">
+                                <span className="input-group-text"><i className="fa-solid fa-pen-to-square"></i></span>
+                                <textarea className="form-control" rows={3} placeholder="Please write here......."></textarea>
+                            </div>
                         </div>
                         <div className='pt-4 mb-3'>
-                        <button type="button" className="btn btn-primary">Primary</button>
+                            <button type="button" className="btn btn-primary">Primary</button>
 
                         </div>
 
