@@ -27,12 +27,12 @@ export default function Home() {
       </Head>
      {/* <Landing /> */}
      {/* <Footer /> */}
-    {/* <Secondiv /> */}
+    <Secondiv />
     {/* <Thirdiv /> */}
      {/* <Login /> */}
      {/* <Signup /> */}
      {/* <Fourthdiv /> */}
-     <Firstdiv />
+     {/* <Firstdiv /> */}
       
     </>
   )
