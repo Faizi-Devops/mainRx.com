@@ -222,4 +222,22 @@
     width: 100%;
 }
 
+/* Firstdiv css  */
+.firstdivbackgroundpicture{
+    background-image: url("/firstdivpicture.png");
+    height: 700px   ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.firstdivheas{
+    padding-top: 130px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.firstdivparagraph{
+    color: #77798c;
+    font-weight: 400;
+}
+
 
