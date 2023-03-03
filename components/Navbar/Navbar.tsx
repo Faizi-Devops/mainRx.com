@@ -27,7 +27,7 @@ const Navbar = () => {
                                 <a className="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#"><i className="fa-brands fa-shopify" ></i>Shop</a>
+                                <a className="nav-link active"  aria-current="page" href="#"><i className="fa-brands fa-shopify" > </i> <span>Shop</span> </a>
                             </li>
                             
                             <li className="nav-item dropdown">
