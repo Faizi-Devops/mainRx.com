@@ -7,6 +7,9 @@ import styles from '@/styles/Home.module.css'
 import Landing from './Landing'
 import Footer from '@/components/Footer/Footer'
 import Secondiv from '@/components/Secondiv/Secondiv'
+import Login from './Login'
+import Signup from './Signup'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,7 +24,9 @@ export default function Home() {
       </Head>
      {/* <Landing /> */}
      {/* <Footer /> */}
-     <Secondiv />
+     {/* <Secondiv /> */}
+     {/* <Login /> */}
+     <Signup />
       
     </>
   )
