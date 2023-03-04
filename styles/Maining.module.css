@@ -1,0 +1,29 @@
+.backgroundimage{
+    background-image: url('/fake.jpg');
+  background-repeat: no-repeat;
+  height: 400px;
+  
+  background-size: cover;
+}
+/* @media (max-width: 768px) {
+    .backgroundimage{
+      background-size: contain;
+      
+    }
+  }
+  @media (max-width: 576px) {
+    .backgroundimage{
+      background-size: contain;
+    }
+  }
+  @media (max-width: 992px) {
+    .backgroundimage{
+      background-size: contain;
+    }
+  } */
+
+  .backgroundcolor{
+    
+    background-color: rgb(244, 239, 239);
+    height: auto;
+  }

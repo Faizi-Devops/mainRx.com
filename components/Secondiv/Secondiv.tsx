@@ -57,18 +57,76 @@ const Secondiv = () => {
             <div className='thirdiv'>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-lg-4'>
-                            <div className="card" style={{width: "18rem"}}>
-                                
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-                                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" className="btn btn-primary">Go somewhere</a>
-                                    </div>
+                        <div className='col-lg-4 col-md-6 col-sm-12 col-xs-12' style={{paddingTop:"30px"}}>
+                            <div className="card" style={{ width: "18rem" }}>
+                                <div className='text-center'>
+                                <Image 
+
+                                    src="/basicimage.jpeg"
+                                    alt="Picture of the author"
+                                    style={{ maxWidth: "50%", maxHeight: "285px",paddingTop:"60px" }}
+                                    width={100}
+                                    height={1}
+                                    
+                                    layout="responsive"
+                                />
+                                </div>
+
+                                <div className="card-body">
+                                    <p className="card-title text-center" style={{fontWeight:"bold"}}>The user will upload the prescription.</p>
+                                    
+                                </div>
                             </div>
                         </div>
-                        <div className='col-lg-4'></div>
-                        <div className='col-lg-4'></div>
+                        <div className='col-lg-4 col-md-6 col-sm-12 col-xs-12' style={{paddingTop:"30px"}}>
+
+                        <div className="card" style={{ width: "18rem" }}>
+                                <div className='text-center'>
+                                <Image 
+
+                                    src="/basicimage.jpeg"
+                                    alt="Picture of the author"
+                                    style={{ maxWidth: "50%", maxHeight: "285px",paddingTop:"60px" }}
+                                    width={100}
+                                    height={1}
+                                    
+                                    layout="responsive"
+                                />
+                                </div>
+
+                                <div className="card-body">
+                                    <p className="card-title text-center" style={{fontWeight:"bold"}}>Our pharmacist will verify, creating order for you.</p>
+                                    
+                                </div>
+                            </div>
+                            
+
+
+                        </div>
+                        <div className='col-lg-4 col-md-6 col-sm-12 col-xs-12' >
+                        <div className="card" style={{ width: "18rem" }}>
+                                <div className='text-center'>
+                                <Image 
+
+                                    src="/basicimage.jpeg"
+                                    alt="Picture of the author"
+                                    style={{ maxWidth: "50%", maxHeight: "285px",paddingTop:"60px" }}
+                                    width={100}
+                                    height={1}
+                                    
+                                    layout="responsive"
+                                />
+                                </div>
+
+                                <div className="card-body">
+                                    <p className="card-title text-center" style={{fontWeight:"bold"}}>Delivery status will update on the app</p>
+                                    
+                                </div>
+                            </div>
+
+
+
+                        </div>
 
                     </div>
 
@@ -94,7 +152,7 @@ const Secondiv = () => {
 
 
                 <div className='row mt-5 mb-5'>
-                    <div className='col-lg-3'>
+                    <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
 
 
                         <div className="wrapper">
@@ -116,7 +174,7 @@ const Secondiv = () => {
 
 
                     </div>
-                    <div className='col-lg-3'>
+                    <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                         <div className="wrapper">
                             <div className="single-card">
                                 <div className="frontingone"></div>
@@ -132,7 +190,7 @@ const Secondiv = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-3'>
+                    <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                         <div className="wrapper">
                             <div className="single-card">
                                 <div className="frontingtwo"></div>
@@ -148,7 +206,7 @@ const Secondiv = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-3'>
+                    <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                         <div className="wrapper">
                             <div className="single-card">
                                 <div className="frontingthree"></div>

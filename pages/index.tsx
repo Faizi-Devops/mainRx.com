@@ -12,6 +12,8 @@ import Signup from './Signup'
 import Fourthdiv from '@/components/Fourthdiv/Fourthdiv'
 import Thirdiv from '@/components/Thirdiv/Thirdiv'
 import Firstdiv from '@/components/Firstdiv/Firstdiv'
+import Maining from './Maining'
+
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -28,6 +30,7 @@ export default function Home() {
      {/* <Landing /> */}
      {/* <Footer /> */}
     <Secondiv />
+    {/* <Maining /> */}
     {/* <Thirdiv /> */}
      {/* <Login /> */}
      {/* <Signup /> */}

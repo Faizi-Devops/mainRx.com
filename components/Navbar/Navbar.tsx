@@ -21,10 +21,10 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Hi Guest</a>
+                                <a className="nav-link active" aria-current="page" href="#"><Link href="/" style={{textDecoration:"none"}}>Hii Guest</Link></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                <a className="nav-link active" aria-current="page" href="#"><Link href="/Maining" style={{textDecoration:"none"}}>Home</Link></a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link active"  aria-current="page" href="#"><i className="fa-brands fa-shopify" > </i> <span>Shop</span> </a>
@@ -37,9 +37,9 @@ const Navbar = () => {
                                 <ul className="dropdown-menu">
                                     <li><a className="dropdown-item" href="#">Checkout</a></li>
                                     <li><a className="dropdown-item" href="#">Track Order</a></li>
-                                    <li><a className="dropdown-item" href="#"><Link href="/Signup">Register</Link></a></li>
+                                    <li><a className="dropdown-item" href="#"><Link href="/Signup" style={{textDecoration:"none"}}>Register</Link></a></li>
                                     <li><a className="dropdown-item" href="#">Blog</a></li>
-                                    <li><a className="dropdown-item" href="#"><Link href="/Login">Login</Link></a></li>
+                                    <li><a className="dropdown-item" href="#"><Link href="/Login" style={{textDecoration:"none"}}>Login</Link></a></li>
                                    
                                 </ul>
                             </li>

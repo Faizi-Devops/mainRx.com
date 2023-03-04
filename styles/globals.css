@@ -78,9 +78,9 @@
     
 }
 .thirdiv{
-    height: 400px;
-    background-color: red;
-    margin-top: 30px;
+    height: auto;
+    padding-bottom: 30px;
+    
 }
 /* thirdiv css */
 .wrapper,

@@ -19,7 +19,7 @@ const Thirdiv = () => {
                 <div className='thirdycardingwidth'>
                     <div className='container-fluid mt-5'>
                         <div className='row'>
-                            <div className='col-lg-3'>
+                            <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                                 <div className="card" style={{ width: "18rem" }}>
                                     <Image className=''
 
@@ -38,7 +38,7 @@ const Thirdiv = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-lg-3'>
+                            <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                             <div className="card" style={{ width: "18rem" }}>
                                     <Image className=''
 
@@ -57,7 +57,7 @@ const Thirdiv = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-lg-3'>
+                            <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                             <div className="card" style={{ width: "18rem" }}>
                                 <div className='text-center'>
 
@@ -80,7 +80,7 @@ const Thirdiv = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-lg-3'></div>
+                            <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'></div>
                             <br /><br />
                             <br /><br /><br /><br /><br />
 
